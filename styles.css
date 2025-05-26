@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    background-color: #98012E;
+    background-color: #4A90E2;
     padding: 1rem 0;
     position: fixed;
     width: 100%;
@@ -47,7 +47,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #FFD700;
+    color: #E8F4FF;
 }
 
 main {
@@ -63,20 +63,39 @@ main {
 }
 
 h2 {
-    color: #98012E;
+    color: #4A90E2;
     margin-bottom: 1.5rem;
     font-size: 2rem;
 }
 
 .about-content {
-    background-color: #f9f9f9;
+    background-color: #F5F9FF;
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(74, 144, 226, 0.1);
 }
 
 .about-content p {
     margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.social-links a {
+    color: #4A90E2;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #2171CE;
 }
 
 .projects-grid {
@@ -86,10 +105,10 @@ h2 {
 }
 
 .project-card {
-    background-color: #f9f9f9;
+    background-color: #F5F9FF;
     padding: 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(74, 144, 226, 0.1);
     transition: transform 0.3s;
 }
 
@@ -98,14 +117,14 @@ h2 {
 }
 
 .project-card h3 {
-    color: #98012E;
+    color: #4A90E2;
     margin-bottom: 1rem;
 }
 
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: #f1f1f1;
+    background-color: #F5F9FF;
     margin-top: 4rem;
 }
 
